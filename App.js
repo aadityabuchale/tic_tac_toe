@@ -35,7 +35,7 @@ for( let i = 0; i < boxes.length; i++ ){
         if( turn%2 == 0){                                              // checking for player 0
             e.target.style.backgroundColor = o_color_p1;
 
-            e.target.innerHTML = `<img src="/images/o_mark.png" alt="img" width="55px">`;     // adding image 
+            e.target.innerHTML = `<img src="o_mark.png" alt="img" width="55px">`;     // adding image 
 
             arr[e.target.getAttribute("value")] = 0;        
             
@@ -44,7 +44,7 @@ for( let i = 0; i < boxes.length; i++ ){
         else {                                                      // checking for player 1
             e.target.style.backgroundColor = x_color_p2;
 
-            e.target.innerHTML = `<img src="./images/x_mark.png" alt="img" width="55px">`;      // adding image 
+            e.target.innerHTML = `<img src="x_mark.png" alt="img" width="55px">`;      // adding image 
             
             arr[e.target.getAttribute("value")] = 1;
 
